@@ -1,0 +1,128 @@
+h2.blog-header {
+			border-bottom: 1px solid grey;
+		}
+		
+p.h1 a {color:black;}
+p.h1 a:hover {text-decoration: none;}
+
+article {
+	margin-bottom: 15px;
+}
+		
+article img {
+	max-width: 100%;
+	height: auto;
+}
+		
+
+article.item span.preview {
+	display: block!important;
+	height: 0rem;
+	overflow: hidden;
+}
+
+figure p {
+   	font-style: italic;
+}
+
+div.wp-copyright {
+	color: white;
+}
+		
+div#wpac-comment {
+	margin-top: 15px;
+}
+		
+article ul.row {
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid gray;
+	list-style-type: none;
+}
+		
+div#wpac-comment div.wp-copyright {
+	height: 1px;
+	overflow: hidden;
+}
+		
+span#logo {
+   	height: 100px;
+	width: 168px;
+}
+
+/*Карусель*/
+span.carousel, span.carousel-inner {
+	display: block;
+}
+
+span.carousel-inner p {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.carousel-indicators li {
+	background-color: rgba(0, 0, 0, 0.2)
+}
+
+.carousel-indicators .active {
+	background-color: rgba(0, 0, 0, 0.4)
+}
+
+/* Метки */
+
+#post-labels {
+	/*border: 1px solid rgba(0, 0, 0, 0.1);*/
+	margin-top: 2rem;
+	margin-bottom: 0!important;
+	padding: .5rem;
+	list-style-type: none;
+}
+
+/* Иконки социальных сетей */
+#social-icons {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin-bottom: 2rem!important;
+	padding: .5rem;
+	list-style-type: none;
+}
+#social-icons img {
+	width: 2rem;
+	height: 2rem;
+}
+
+.si-label {
+	margin: auto auto auto 0!important;
+}
+
+#social-icons li {
+	padding: .2rem .2rem .2rem 0!important;
+	/*display: inline-block;*/
+}
+
+.vk-icon {
+	background-color: rgb(111, 152, 191);/*#5d6b97;*/
+}
+
+.fb-icon {
+	background-color: rgb(58, 90, 154);
+}
+
+.tw-icon {
+	background-color: rgb(114, 188, 232);
+}
+
+.pi-icon {
+	background-color: rgb(200, 14, 19);
+}
+
+.tg-icon {
+	background-color: rgb(0, 159, 218)
+}
+
+.ok-icon {
+	background-color: rgb(240, 147, 26);
+}
+
+.vk-icon, .fb-icon, .tw-icon, .pi-icon, .tg-icon, .ok-icon {
+	margin-left: .5rem!important;
+}
