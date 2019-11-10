@@ -126,3 +126,46 @@ span.carousel-inner p {
 .vk-icon, .fb-icon, .tw-icon, .pi-icon, .tg-icon, .ok-icon {
 	margin-left: .5rem!important;
 }
+
+/* Страничная навигация */
+.blog-pager {
+	margin-top: 1.5rem;
+	padding: 0.5rem;
+	clear: both;
+}
+.blog-pager ul {
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+}
+
+/* Подвал */
+footer {
+	margin: 0;
+	padding: 0.5rem;
+	background-color: #f8f9fa;
+}
+
+footer p {
+	text-align: center;
+}
+
+@media (max-width: 991.98px) {
+	.navbar {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+			
+	.container {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 399.98px) {
+	.blog-pager span.hide {
+		display: block!important;
+		width: 0rem;
+		height: 0rem;
+		overflow: hidden;
+	}
+}
