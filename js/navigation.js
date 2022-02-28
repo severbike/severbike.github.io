@@ -1,9 +1,11 @@
 function sbModNavigation () {
-	console.log('hello, word');
+	
+	//Page URL
+	const pageUrl = document.location;
+	console.log(pageUrl);
 }
 
-//Page URL
-const pageUrl = document.location;
+
 //Create URL Search Params
 const params = new URLSearchParams(pageUrl.search);
 //Проверяем, существует ли параметр start, если не существует, возвращаем 0
