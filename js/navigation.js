@@ -19,14 +19,14 @@ function sbModNavigation () {
 	  })
 	  .then((data) => {
 		//Обрабатываем JSON
-	    navigation(data);
+	    navigation(data, startPost, maxResults);
  	 });
 }
 
 
 
  
-function navigation(rj) {
+function navigation(rj, startPost, maxResults) {
 	console.log(rj.feed.entry.length);
 	let lastPost = startPost + maxResults;
 	console.log(lastPost);
