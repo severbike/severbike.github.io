@@ -1,3 +1,7 @@
+function sbModNavigation () {
+	console.log('hello, word');
+}
+
 //Page URL
 const pageUrl = document.location;
 //Create URL Search Params
