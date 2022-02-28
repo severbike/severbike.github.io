@@ -28,7 +28,7 @@ function sbModNavigation () {
  
 function navigation(rj) {
 	console.log(rj.feed.entry.length);
-	console.log(startPosts);
+	console.log(startPost);
 	let lastPost = startPost + maxResults;
 	if (Number(rj.feed.entry.length) < lastPos) {
 		console.log('Hide Next Link');
