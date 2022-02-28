@@ -7,7 +7,7 @@ function sbModNavigation () {
 	const startPost = params.has('start') ? Number(params.get('start')) : 0;
 	//Проверяем количество постов
 	const maxResults = params.has('max-results') ? Number(params.get('max-results')) : 20;
-	console.log(maxResults);
+	console.log('maxResults='+maxResults );
 //Извлекаем label из URL страницы
 //const label =  pageUrl.pathname.toString().substring(pageUrl.pathname.lastIndexOf('/') + 1);
 //Формируем ссылку на RSS-ленту для label.
