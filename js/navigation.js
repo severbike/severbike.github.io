@@ -1,11 +1,11 @@
 function sbModNavigation () {	
 	//Page URL
 	const pageUrl = document.location;
-	console.log(pageUrl);
 	//Create URL Search Params
-//const params = new URLSearchParams(pageUrl.search);
-//Проверяем, существует ли параметр start, если не существует, возвращаем 0
-//const startPost = params.has('start') ? Number(params.get('start')) : 0;
+	const params = new URLSearchParams(pageUrl.search);
+	//Проверяем, существует ли параметр start, если не существует, возвращаем 0
+	const startPost = params.has('start') ? Number(params.get('start')) : 0;
+	console.log(startPost);
 //Проверяем количество постов
 //const maxResults = params.has('max-results') ? Number(params.get('max-results')) : 20;
 //console.log('maxResults');
