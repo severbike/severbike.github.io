@@ -194,7 +194,7 @@ footer p {
 	}
 }
 
-@media (max-width: 399.98px) {
+@media (max-width: 576px) {
 	.blog-pager span.hide {
 		display: block!important;
 		width: 0rem;
