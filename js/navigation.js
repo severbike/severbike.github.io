@@ -29,7 +29,7 @@ function sbModNavigation () {
 function navigation(rj, startPost, maxResults) {
 	//console.log(rj.feed.entry.length);
 	let lastPost = startPost + maxResults;
-	console.log(lastPost);
+	//console.log(lastPost);
 	if (Number(rj.feed.entry.length) <= lastPost) {
 		//console.log('Hide Next Link');
 		document.getElementById('blog-pager-older-link').classList.add('hide');
